@@ -1,70 +1,232 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h3><b>Javascript Capstone Project</b></h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+      - [🚀 Live Demo ](#-live-demo-)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr><hr>
+<!-- PROJECT DESCRIPTION -->
 
-### `npm run build`
+# <b>React Capstone Project
+  📖</b><a name="about-project"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The React capstone project is about building your own web application based on an external API. You will select an API that provides data about a topic that you like, and then build the web application around it. The application will show a page with a list of countries and their information, such as square area, population, currency, continent, and other information. When the user clicks on a country, the application will navigate to a page that shows the detailed information for that country, including its governmental divisions and provinces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- BUILT WITH -->
+## <b>Built With 🛠</b><a name="built-with"></a><br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- TECH STACK -->
+### <b>Tech Stack 🗜️</b><a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML5</a> markup to build raw structure of this web page</li><br>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a> custom properties, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FlexBox</a>, <a href="https://www.w3schools.com/css/css_grid.asp">Grid</a> to make the website visually attractive</li><br>
+    <li><a href="https://reactjs.org/">Javascript</a></li><br>
+    <li><a href="https://mozilla.github.io/addons-linter/">Linters</a> for coding convention and coding formating</li>
+    <li><a href="https://react-redux.js.org/introduction/getting-started">React Redux</a></li>
+    <li><a href="https://jestjs.io">Jest</a></li> 
 
-### `npm run eject`
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://npmjs.com/package/webpack-server">Webpack server</a></li>  
+    <li><a href="https://secure.geonames.org/">API</a></li>
+  </ul>
+</details>
+<br><hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- KEY FEATURES -->
+### <b>Key Features 🏷️</b> <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **dispaly the country list**
+- **Display country detail inormation**
+- **naviaget pages from list to detail and vice verse**
+- **the Async Function**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- LIVE DEMO -->
 
-## Learn More
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Live Demo Link]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+ ## 🎥 Video Walkthrough
+[Live video]()
+<!-- GET STARTED -->
+## <b>Getting Started 💻</b><a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+<!-- PREREQUISITIES -->
+### <b>Prerequisites 🧱</b><a name="prerequisites"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
+- A Github account
+- Node JS
+- Install the necessary dependency libraries
+-A web browser to view the output e.g [Microsoft Edge](https://www.microsoft.com/en-us/edge).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br><hr>
 
-### Deployment
+<!-- SETUP -->
+### <b>Setup ⚙️</b><a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Create a new folder to store the files in.
 
-### `npm run build` fails to minify
+<!-- INSTALL -->
+### <b>Install 🏗️</b><a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Open your command prompt or terminal and run.
+-  Clone the repository
+
+  ```sh
+        git clone https://github.com/melkamu12/react-capstone.git
+- Install all dependencies:
+
+  ```sh
+      npm install
+  ```
+
+
+  - Run the project:
+
+  ```sh
+      npm start
+  ```
+  - Test
+  ```sh
+        npm test
+  ```
+<br><hr>
+
+<!-- USAGE -->
+### <b>Usage 📂</b><a name="usage"></a>
+
+- use your daily task
+
+<!-- TESTS -->
+<br><hr>
+### <b>Run tests 🧪</b><a name="run-tests"></a>
+
+How should it be tested? 
+To run tests, run the following command:
+
+- HTML linter errors run:
+
+```
+npx hint .
+```
+
+- CSS linter errors run:
+
+```
+npx stylelint "**/*.{css,scss}" --fix
+```
+
+- JavaScript linter errors run:
+
+```
+npx eslint . --fix
+```
+
+<br><hr>
+
+<!-- DEPLOYEMENT -->
+### <b>Deployment</b> <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages, [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+
+This project was deployed using GitHub Pages. For more information about how to use GitHub pages [read here](https://www.w3schools.com/git/git_remote_pages.asp?remote=github) 🤩. If you want to watch a video about how to use GitHub pages instead of reading [click here](https://www.youtube.com/watch?v=QyFcl_Fba-k&t=251s).
+
+
+<!-- AUTHORS -->
+## <b>Authors 👥<b><a name="authors"></a>
+ **Melkamu**
+- GitHub: [@melkamu12](https://github.com/melkamu12)
+- Facebook: [@Melkamu Almawu](https://www.facebook.com/people/Melkamu-Almawu/pfbid028hQsqdkxPj8AuN9RFqvCFArmhEP2kcaFNRPL5X8Cri14ZTStjVNPNj2kevtq8GSJl/)
+- LinkedIn: [Melkamu Almawu](https://www.linkedin.com/in/melkamu-almawu/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br><hr>
+
+<!-- FUTURE FEATURES -->
+## <b>Future Features 🔭</b><a name="future-features"></a>
+
+- **Make the app responsive**
+- **Adding Pagination to the list**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## <b>Contributing 🤝</b><a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Microverse Staf and [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./mit.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
