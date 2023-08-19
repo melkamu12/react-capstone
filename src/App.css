@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
   --color-c9bcd719: #969694f5;
   --color-000000: #000;
@@ -10,8 +11,9 @@
   --color-3f3f97: #3f3f97;
 }
 
-body, html{
-  background-color:#3f3f97;
+body,
+html {
+  background-color: #3f3f97;
   overflow-x: hidden;
 }
 
@@ -23,7 +25,6 @@ body, html{
   margin-left: 150px;
   text-align: center;
 }
-
 
 .country-card {
   box-shadow: 0 2px 4px rgba(78, 70, 70, 0.3);
@@ -59,7 +60,7 @@ section ul {
   grid-template-columns: repeat(2, 1fr);
   width: auto;
   list-style: none;
-  gap:4px;
+  gap: 4px;
 }
 
 .country-image {

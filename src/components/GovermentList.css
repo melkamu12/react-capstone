@@ -1,9 +1,10 @@
-:root{
+:root {
   --color-2c2c8a: #262669;
   --color-3f3f97: #3f3f97;
-  --color-ffffff: #ffffff;
+  --color-ffffff: #fff;
   --color-0c0cf6f5: #0c0cf6f5;
 }
+
 .provinces-list {
   width: auto;
 }
