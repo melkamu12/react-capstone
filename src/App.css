@@ -124,7 +124,7 @@ section ul {
   padding-right: 2px;
   padding-top: 20px;
   justify-content: center;
-  
+
   @media (min-width: 500px) {
     width: 100px;
   }
