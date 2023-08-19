@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { BsMicFill } from 'react-icons/bs';
 import { IoChevronBack } from 'react-icons/io5';
-import './navBar.css';
 
 const Header = () => (
   <>

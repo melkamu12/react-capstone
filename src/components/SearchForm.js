@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { updateFoundList } from '../redux/countries/countriesSlice';
-import './SearchForm.css';
 
 function SearchForm() {
   const dispatch = useDispatch();
