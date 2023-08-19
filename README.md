@@ -86,7 +86,7 @@ The React capstone project is about building your own web application based on a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ## 🎥 Video Walkthrough
-[Live video]()
+[Live video](https://drive.google.com/file/d/12F041o6OFulzkkf6eyTJcvfY0hEgoD-z/view?usp=sharing)
 <!-- GET STARTED -->
 ## <b>Getting Started 💻</b><a name="getting-started"></a>
 

@@ -14,12 +14,12 @@ test('CountriesList component snapshot', () => {
       countriesArr: [
         {
           geonameId: 1,
-          countryName: 'United States',
-          countryCode: 'US',
-          currencyCode: 'USD',
-          areaInSqKm: '9372610',
-          continentName: 'North America',
-          population: '331002651',
+          countryName: 'Andorra',
+          countryCode: 'AD',
+          currencyCode: 'EUR',
+          areaInSqKm: '468.0',
+          continentName: 'EU',
+          population: '77006',
         },
       ],
       searchString: 'United',

@@ -10,7 +10,7 @@ export const getCountries = createAsyncThunk(
       const response = await axios.get(API_URL);
       return response.data.geonames;
     } catch (error) {
-      console.error('Error en la solicitud API:', error);
+      console.error('Error on API Featch:', error);
       throw new Error(error.message);
     }
   },

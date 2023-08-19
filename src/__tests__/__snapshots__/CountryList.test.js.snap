@@ -2,61 +2,6 @@
 
 exports[`CountriesList component snapshot 1`] = `
 <section>
-  <ul>
-    <li>
-      <div
-        className="country-card"
-      >
-        <a
-          className=""
-          href="/country/1"
-          onClick={[Function]}
-        >
-          <div
-            className="country-info"
-          >
-            <img
-              alt="United States"
-              className="country-image"
-              src="https://flagcdn.com/us.svg"
-            />
-            <p
-              className="country-name"
-            >
-              United States
-            </p>
-          </div>
-          <p
-            className="currency-code"
-          >
-            USD
-          </p>
-        </a>
-        <div
-          className="country-details"
-        >
-          <p
-            className="area"
-          >
-            Sureface Area:
-            9372610
-            km²
-          </p>
-          <p
-            className="continent"
-          >
-            Continent:
-            North America
-          </p>
-          <p
-            className="population"
-          >
-            Population:
-            331002651
-          </p>
-        </div>
-      </div>
-    </li>
-  </ul>
+  <ul />
 </section>
 `;
