@@ -83,7 +83,7 @@ header a {
 .country-card {
   box-shadow: 0 2px 4px rgba(78, 70, 70, 0.3);
   text-align: center;
-  min-width: 175px;
+  min-width: 105px;
   max-width: 100%;
   background-color: var(--color-c9bcd719);
   display: flex;
@@ -92,16 +92,8 @@ header a {
   justify-content: space-between;
   cursor: pointer;
   border: 0.5px solid rgb(133, 133, 133);
-  border-radius: 3px;
-  margin-right: 5px;
-
-  @media (max-width: 768px) {
-    min-width: 175px;
-    max-width: 100%;
-    height: auto;
-    flex-direction: row;
-    width: 100%;
-  }
+  border-radius: 2px;
+  margin-right: 1px;
 }
 
 .country-info {
@@ -127,11 +119,15 @@ section ul {
 }
 
 .country-image {
-  width: 70px;
+  width: 60px;
   text-align: center;
   padding-right: 2px;
   padding-top: 20px;
   justify-content: center;
+  
+  @media (min-width: 500px) {
+    width: 100px;
+  }
 }
 
 .country-name {
