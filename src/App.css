@@ -43,7 +43,7 @@ header a {
 
 .see-all-container p {
   color: var(--color-ced4da);
-  margin-left: 3px;
+  margin-left: 2px;
   padding-top: 15px;
   text-align: center;
   font-size: 12px;
@@ -83,11 +83,10 @@ header a {
 .country-card {
   box-shadow: 0 2px 4px rgba(78, 70, 70, 0.3);
   text-align: center;
-  min-width: 100px;
+  min-width: 175px;
   max-width: 100%;
   background-color: var(--color-c9bcd719);
   display: flex;
-  padding: 8px;
   height: 150px;
   flex-direction: row;
   justify-content: space-between;
@@ -97,7 +96,7 @@ header a {
   margin-right: 5px;
 
   @media (max-width: 768px) {
-    min-width: 95px;
+    min-width: 175px;
     max-width: 100%;
     height: auto;
     flex-direction: row;
@@ -128,9 +127,10 @@ section ul {
 }
 
 .country-image {
-  width: 80px;
+  width: 70px;
   text-align: center;
-  padding-right: 5px;
+  padding-right: 2px;
+  padding-top: 20px;
   justify-content: center;
 }
 
