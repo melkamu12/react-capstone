@@ -14,7 +14,6 @@
 body,
 html {
   background-color: #3f3f97;
-  overflow-x: hidden;
 }
 
 .loading-span {
@@ -33,7 +32,7 @@ html {
   max-width: 100%;
   background-color: var(--color-c9bcd719);
   display: flex;
-  padding: 5px;
+  padding: 8px;
   height: 150px;
   flex-direction: row;
   justify-content: space-between;
