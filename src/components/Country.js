@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import getFlagImageUrl from './Flags';
 
 function Country({
@@ -19,15 +20,21 @@ function Country({
   const flagImageUrl = getFlagImageUrl(countryCode);
 
   const countryLink = (
-    <NavLink className="country-info" to={`country/${geonameId}`}>
-      <img className="country-image" src={flagImageUrl} alt={countryName} />
-      <p className="country-name">{countryName}</p>
-      <p className="currency-code">{currencyCode}</p>
-    </NavLink>
+    <div className="information">
+      <div className="country-info">
+        <img className="country-image" src={flagImageUrl} alt={countryName} />
+        <p className="country-name">{countryName}</p>
+        <p className="currency-code">{currencyCode}</p>
+      </div>
+      <div />
+    </div>
   );
 
   const countryDetails = (
     <div className="country-details">
+      <NavLink className="arrowLink" to={`country/${geonameId}`}>
+        <BsFillArrowRightCircleFill />
+      </NavLink>
       <p className="area">
         Sureface Area:
         {areaInSqKm}
