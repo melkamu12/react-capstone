@@ -227,6 +227,6 @@ Microverse Staf and [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
