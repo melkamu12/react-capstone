@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import getFlagImageUrl from './Flags';
-import './Country.css';
 
 function Country({
   geonameId,
@@ -12,15 +11,17 @@ function Country({
   areaInSqKm,
   continentName,
   population,
+  index,
 }) {
+  const differentStyle = index % 4 === 1 || index % 4 === 2;
+  const style = differentStyle ? 'bg-1' : 'bg-2';
+
   const flagImageUrl = getFlagImageUrl(countryCode);
 
   const countryLink = (
-    <NavLink to={`country/${geonameId}`}>
-      <div className="country-info">
-        <img className="country-image" src={flagImageUrl} alt={countryName} />
-        <p className="country-name">{countryName}</p>
-      </div>
+    <NavLink className="country-info" to={`country/${geonameId}`}>
+      <img className="country-image" src={flagImageUrl} alt={countryName} />
+      <p className="country-name">{countryName}</p>
       <p className="currency-code">{currencyCode}</p>
     </NavLink>
   );
@@ -45,7 +46,7 @@ function Country({
 
   return (
     <li>
-      <div className="country-card">
+      <div className={`country-card ${style}`}>
         {countryLink}
         {countryDetails}
       </div>
@@ -61,6 +62,7 @@ Country.propTypes = {
   continentName: PropTypes.string.isRequired,
   population: PropTypes.string,
   geonameId: PropTypes.number.isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 Country.defaultProps = {

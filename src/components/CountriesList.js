@@ -16,9 +16,10 @@ function CountriesList() {
           .filter(({ countryName }) => countryName
             .toUpperCase()
             .includes(countries.searchString.toUpperCase()))
-          .map((country) => (
+          .map((country, index) => (
             <Country
               key={country.geonameId}
+              index={index}
               geonameId={country.geonameId}
               countryName={country.countryName}
               countryCode={country.countryCode}

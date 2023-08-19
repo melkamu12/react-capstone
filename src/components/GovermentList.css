@@ -1,11 +1,15 @@
+:root{
+  --color-2c2c8a: #262669;
+  --color-3f3f97: #3f3f97;
+  --color-ffffff: #ffffff;
+  --color-0c0cf6f5: #0c0cf6f5;
+}
 .provinces-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   width: auto;
 }
 
 .item-province {
-  color: white;
+  color: var(--color-ffffff);
   font-family: 'Lato', sans-serif;
   padding: 10px;
   text-align: center;
@@ -17,9 +21,16 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #343131;
   background-clip: border-box;
   transition: 0.25s ease-in-out;
+}
+
+.provinces-list li:nth-child(odd) {
+  background-color: var(--color-2c2c8a);
+}
+
+.provinces-list li:nth-child(even) {
+  background-color: var(--color-3f3f97);
 }
 
 .error-message {
@@ -47,8 +58,8 @@
   justify-content: center;
   align-items: center;
   height: 180px;
-  background-color: aliceblue;
-  color: rgb(10, 67, 255);
+  background-color: var(--color-0c0cf6f5);
+  color: var(--color-ffffff);
   font-family: 'Lato', sans-serif;
   font-size: 38px;
   background-size: cover;

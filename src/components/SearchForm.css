@@ -1,8 +1,9 @@
 :root {
-  --color-c9bcd719: #969694f5;
+  --color-0c0cf6f5: #0c0cf6f5;
   --color-000000: #000;
   --color-white: white;
-  --color-blueBlack: #89786ea0;
+  --color-ced4da: rgb(206, 212, 218);
+  --color-3b4149: #1a56a5;
 }
 
 .form-countries {
@@ -10,7 +11,7 @@
   justify-content: center;
   align-items: center;
   height: 150px;
-  background-color: var(--color-c9bcd719);
+  background-color: var(--color-0c0cf6f5);
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -18,22 +19,25 @@
 
 .input-countries {
   color: var(--color-000000);
-  border: 2px solid var(--color-white);
   width: 290px;
-  height: 20px;
-  padding: 5px;
-  border-radius: 15px;
+  height: 40px;
   opacity: 0.8;
+  display: block;
+  padding: .375rem .75rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-ced4da);
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out;
 }
 
 .input-countries::placeholder {
-  color: black;
+  color: var(--color-000000);
 }
 
 .text-results-countries {
   height: 3rem;
   padding: 5px 0 5px 20px;
-  background-color: var(--color-white);
+  background-color: var(--color-3b4149);
   font-family: 'Lato', sans-serif;
   color: var(--color-000000);
   font-weight: 700;
